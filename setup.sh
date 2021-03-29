@@ -41,7 +41,7 @@ mv map.db /etc/agent/
 
 git clone https://github.com/marc-mila/codesVehicle.git
 mv /etc/agent/codesVehicle/codes_def.tar /etc/agent/codes/
-tar xvf /etc/agent/codes/codes_def.tar
+tar -xvf /etc/agent/codes/codes_def.tar
 
 echo "Test"
 hug -f /etc/agent/codes/api.py
