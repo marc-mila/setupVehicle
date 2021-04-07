@@ -39,8 +39,8 @@ wget -O map.db https://github.com/marc-mila/environmentVehicle/blob/main/map.db?
 mv insert_sqlite.py /etc/agent/
 mv map.db /etc/agent/
 
-git clone https://github.com/marc-mila/codesVehicle.git
-mv /home/pi/codesVehicle/codes_def.tar /etc/agent/codes/
+git clone https://github.com/marc-mila/codesVehicles.git
+mv /home/pi/codesVehicles/codes_def.tar /etc/agent/codes/
 tar -xvf /etc/agent/codes/codes_def.tar -C /etc/agent/codes/
 
 echo "Test"
