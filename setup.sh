@@ -34,9 +34,11 @@ sudo mkdir /etc/agent/config
 sudo chmod -R 777 /etc/agent
 
 wget https://raw.githubusercontent.com/marc-mila/environmentVehicle/main/insert_sqlite.py
+wget https://raw.githubusercontent.com/marc-mila/environmentVehicle/main/car.config
 wget -O map.db https://github.com/marc-mila/environmentVehicle/blob/main/map.db?raw=true
 
 mv insert_sqlite.py /etc/agent/
+mv car.config /etc/agent/config/
 mv map.db /etc/agent/
 
 git clone https://github.com/marc-mila/codesVehicles.git
