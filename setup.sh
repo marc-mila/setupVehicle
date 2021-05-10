@@ -41,6 +41,7 @@ mv insert_sqlite.py /etc/agent/
 mv car.config /etc/agent/config/
 mv map.db /etc/agent/
 
+sudo rm -r /home/pi/codesVehicles/
 git clone https://github.com/marc-mila/codesVehicles.git
 mv /home/pi/codesVehicles/codes_def.tar /etc/agent/codes/
 tar -xvf /etc/agent/codes/codes_def.tar -C /etc/agent/codes/
